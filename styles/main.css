@@ -105,22 +105,87 @@ body{
  font-family: 'Poppins', sans-serif;
  background-color: var(--opal);
  color: var(--coal);
+ font-size: 1rem;
 }
 h1, h2, h3, h4 {
   font-family: 'Abril Fatface', serif;
-}
-h1{
   color: var(--dusty-blue);
 }
 
-h2{
-  color: var(--cool-blush);
-}
-
-h3{
+a{
   color: var(--sage);
+  text-decoration: none;
+}
+a[href]:hover{
+  color: var(--dull-lavender);
+  text-decoration: underline;
 }
 
-h4{
-  color: var(--dull-lavender);
+a.button{
+	color: black;
+	background-color: #d3d3d3;
+	text-decoration: none;
+	height: 1.5em;
+	padding: 7px 4px;
+	margin: 10px 0;
+	border: #343435;
+	border-top:2px solid white ;
+	border-left:2px solid white ;
+	border-right:2px solid black ;
+	border-bottom:2px solid black ;
 }
+a.button:hover{
+	background-color: #787878;
+	color:aqua;
+}
+
+	/* blurring the image */
+	.gfg {
+		filter: blur(5px);
+		width: 100%;
+	}
+			
+	/* designing title and tag line */
+	.logo {
+		text-align:center;
+		position: absolute;
+		font-size: 18px;
+		top: 50px;
+		left: 27%;
+		color: white;
+	}
+	h1, p {
+		
+		padding: 10px 50px;
+		position: relative;
+		border-radius: 10px;
+	}
+	h2{
+		padding: 10px 25px;
+		position: relative;
+		border-radius: 10px;
+	}
+    h1 {
+		
+		 border: 4px solid rgb(255, 255, 255);
+		 color: var(--opal)
+	}
+		
+
+	
+	/* Designing button 
+	 .logo button {
+		border: none;
+		outline: 0;
+		display: inline-block;
+		padding: 10px 25px;
+		color: black;
+		background-color: #ddd;
+		text-align: center;
+		cursor: pointer
+	}
+	.logo button:hover {
+		background-color: #9FB088;
+		color: white;
+	}  */
+
