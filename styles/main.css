@@ -108,8 +108,32 @@ body{
  font-size: 1rem;
 }
 h1, h2, h3, h4 {
+	
   font-family: 'Abril Fatface', serif;
   color: var(--dusty-blue);
+}
+
+h1 {
+	max-width: 60em;
+	padding: 10px 50px;
+	position: relative;
+	border-radius: 10px;
+	margin: 20px 10px;
+	border: 4px solid rgb(255, 255, 255);
+	color: var(--opal);
+}
+h2{
+	padding: 10px 25px;
+	position: relative;
+	border-radius: 10px;
+}
+
+p{
+	max-width: 60em;
+	padding: 10px 50px;
+	position: relative;
+	border-radius: 10px;
+	margin: 20px 10px;
 }
 
 a{
@@ -124,10 +148,11 @@ a[href]:hover{
 a.button{
 	color: black;
 	background-color: #d3d3d3;
+	transition: background-color 300ms ease;
 	text-decoration: none;
 	height: 1.5em;
 	padding: 7px 4px;
-	margin: 10px 0;
+	margin: 10px 200px;
 	border: #343435;
 	border-top:2px solid white ;
 	border-left:2px solid white ;
@@ -136,7 +161,7 @@ a.button{
 }
 a.button:hover{
 	background-color: #787878;
-	color:aqua;
+	color:var(--opal);
 }
 
 	/* blurring the image */
@@ -154,23 +179,11 @@ a.button:hover{
 		left: 27%;
 		color: white;
 	}
-	h1, p {
-		
-		padding: 10px 50px;
-		position: relative;
-		border-radius: 10px;
-	}
-	h2{
-		padding: 10px 25px;
-		position: relative;
-		border-radius: 10px;
-	}
-    h1 {
-		
-		 border: 4px solid rgb(255, 255, 255);
-		 color: var(--opal)
-	}
-		
+	
+footer p{
+	color: var(--dusty-blue);
+	font-size: .75rem;
+}		
 
 	
 	/* Designing button 
